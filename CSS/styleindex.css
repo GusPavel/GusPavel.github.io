@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+body{
+    display: flex;
+    height: 100%;
+    background: linear-gradient(to top,hsl(0, 0%, 0%),#212325);
+    font-family: "Schibsted Grotesk", sans-serif;
+    }
+  /*Barra de Navegación Lateral*/
+  .NavBar {
+    padding: 14px 16px;
+    background-color:#ae048f;
+  }
+  .Animated a{
+    background: #ae048f;
+    color: #54b3d6;
+    margin: 0 -2rem;
+    padding: 1rem 2rem 0rem;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+  }
+  .Animated a:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+  }
+  /*Fin de la NAVBAR*/
+  /*Caja en donde se encuentra siempre la info de contacto*/
+  .Name_Box{
+   width: 30%;
+   left: 62px;
+   padding-bottom: 75vh;
+   padding-top: 45vh;
+   box-shadow: 10px 10px 10px 5px rgb(45, 45, 45);
+   position: fixed;
+   color: rgb(255, 250, 250);
+   background-color: #7b0265;
+   
+  }
+  .Name_Box h2{
+    padding-top:2vh;
+    font-size: 20px;
+    padding-right: 7vh;
+    padding-left: 1vh;
+    
+  }
+  .Name_Box img{
+    padding-top: 3vh;
+    padding-left:3vh ;
+    width:30px;
+    height:30px;
+  }
+  .Name_Box p {
+    padding-top: 1vh;
+    padding-left:1vh;
+  }
+  /*Encargado de manejar el icon del teléfono*/
+  #Call{
+    padding: 0;
+    padding-left: 1vh;
+  }
+  /*Fin de la info de contacto*/
+
+/*Inicio de Content1*/
+#Content1{
+  padding-left: 70vh;
+}
+#Content1 a {
+  padding-top:10px;
+  padding-right:20px;
+  padding-left: 15px;
+  color: rgba(255, 255, 255, 0.588);
+  font-size: 18px;
+  text-align: justify;
+}
+#Content1 p{
+  padding-top:10px;
+  padding-right:20px;
+  padding-left: 15px;
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+#Content1 h2{
+  padding-top:40px;
+  padding-left:15px ;
+  color: white;
+  font-size: 40px;
+}
+#Content1 h3{
+  padding-top:40px;
+  padding-left:15px ;
+  color: white;
+  font-size: 30px;
+}
+#Content1 #Datos{
+  padding-top:50px;
+  padding-right:20px;
+  padding-left: 15px;
+  color: rgb(165, 161, 161);
+}
+#Content1 #img3{
+  padding-left: 20px;
+}
+/*Fin de Content1*/
+/*Inicio del Contenido2*/
+#Content2{
+  padding-left: 70vh;
+  padding-top:5vh;
+  color: white;
+}
+#Content2 h2{
+padding-bottom: 2vh;
+padding-top: 1vh;
+}
+#Content2 ul {
+ padding-left:7vh;
+}
+#Content2 ol {
+  padding-left:7vh;
+ }
+#Content2 p{
+  padding-bottom: 1vh;
+}
+#Content2 img{
+ padding-left:1vh ;
+}
+/*Fin del Contenido2*/
+/*Contenido3*/
+#Content3{
+  padding-left: 80vh;
+  padding-top:10vh;
+  color: white;
+}
+#Content3 .gallery {
+  margin: 5px;
+  border-radius: 5%;
+  float: left;
+  width: 180px;
+}
+#Content3 .gallery:hover .desc:hover {
+  background: gray;
+}
+
+#Content3 .gallery img {
+  width: 100%;
+  border-radius: 5%;
+  height: 200px;
+}
+
+#Content3 .gallery video {
+  width: 100%;
+  border-radius: 5%;
+  height: 200px;
+}
+
+#Content3 .desc {
+  padding: 15px;
+  color: black;
+  background: #ccc;
+  text-align: center;
+  text-decoration: none;
+  font-size: small;
+}
+/*Fin del contenido3*/
+/*Contenido 4*/
+#Content4{
+  padding-left: 70vh;
+  padding-top: 4vh;
+  color: white;
+}
+/*Formato del form*/
+#Content4 form {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  color: black;
+}
+#Content4 label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+#Content4 input {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#Content4 button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+#Content4 button:hover {
+  background-color: #0056b3;
+}
+#Content4 .Espacio{
+  background-color: #00ff0d;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+#Content4 .Espacio:hover{
+  background-color:  #006d05;
+}
+/*Fin del form*/
+#Content4 h3{
+  padding-bottom: 20px;
+}
+/*Fin del Contenido4*/
+/*Estilos de listas descargados*/
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "\1F44D";
+  suffix: " ";
+}
+@counter-style tools{
+  system: cyclic;
+  symbols: "⚒️";
+  suffix: " ";
+}
+/*Fin de las listas descargadas*/
+/* Media Queries para hacer responsivo el diseño */
+@media (min-width: 768px) {
+  .Name_Box {
+    position: fixed;
+    left: 62px;
+    width: 28%;
+  }
+
+  #Content1,
+  #Content2,
+  #Content3,
+  #Content4 {
+    padding-left: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  #Content1,
+  #Content2,
+  #Content3,
+  #Content4 {
+    padding-left: 30%;
+  }
+}

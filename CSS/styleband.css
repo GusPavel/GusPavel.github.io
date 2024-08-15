@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+}
+/*Barra de Navegación*/
+.NavBar{
+    padding-right: 1vh;
+    background-color: rgb(136, 0, 255);
+}
+.NavBar ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.NavBar li{
+    float: left;
+}
+.NavBar li a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(136, 0, 255);
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+}
+.NavBar li a:hover{
+    box-shadow: inset 0 100px 0 0 #7e7979;
+}
+/*Fin de la barra de Navegación*/
+
+/*Parallax 1 y su contenido*/
+.parallax{
+    background-image: url("../Images/Band.gif");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ContentText{
+    color: #777;
+    background-color:rgb(76, 29, 130);
+    text-align:center;
+    padding:50px 200px;
+    text-align: justify;
+}
+.parallax-foot{
+    background-image: url("../Images/Foot.gif");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Fin de parallax 1 y su content*/
+/*Estilo de la tabla de bandas*/
+table{
+    width:100% ;
+    border: 3px solid #000;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+}
+td, th{
+    color:#fff;
+    font-size:20px;
+    border: 2px solid #000;
+    background: linear-gradient(to top,hsl(273, 87%, 27%),#7112a8);
+}
+caption{
+    font-size:5vh;
+    font-style: oblique;
+    color:#fff;
+    border: 3px solid #000;
+    background: rgb(116, 40, 179);
+}
+.Nirvana{
+background-image: url(../Images/Nirvana.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-indent: -9999px;
+overflow: hidden;
+width: 200px;
+height: 20vh;
+}
+.Beatles{
+    background-image: url(../Images/thebeatles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 200px;
+    height: 20vh;
+
+}
+.Neighbourhood{
+    background-image: url(../Images/neighbourhood.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 200px;
+    height: 20vh;
+}
+.鬱P{
+    background-image: url(../Images/Utsu-P.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 200px;
+    height: 20vh;
+    }
+/*Fin de estilos para tablas*/
